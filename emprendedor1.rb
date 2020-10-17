@@ -5,6 +5,7 @@
 # impuestos : Los impuestos son aplicados a las utilidades son el 35% y solo aplican si es positivo
 # Se agrega validación para que indique cuando existe $ 0 de ulilidad, ya que existen gastos asociados 
 # ruby emprendedor1.rb 50 1000 50000
+# Ingrese el precio, el número de usuarios y los gastos. El programa calcula las utilidades.
 precio_venta = ARGV[0].to_i 
 usuarios = ARGV[1].to_i 
 gastos = ARGV[2].to_i
